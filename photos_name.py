@@ -17,7 +17,7 @@ def save_image_filenames(directory, output_file):
             f.write("{}\n".format(filename))
 
 # Παράδειγμα χρήσης
-directory = r'C:\Users\giats\Desktop\my photos website'  # Αντικαταστήστε με τον φάκελο που θέλετε να ελέγξετε
+directory = r' directory '  # Αντικαταστήστε με τον φάκελο που θέλετε να ελέγξετε
 output_file = 'image_filenames.txt'  # Το όνομα του αρχείου εξόδου
 
 save_image_filenames(directory, output_file)
